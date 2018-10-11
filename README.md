@@ -1,3 +1,3 @@
 # Creative<br>
 Пример верстки HTML/CSS<br>
-PSD-макет взят отсюда: 
+PSD-макет взят отсюда: https://psdfreebies.com/psd/creative-digital-agencies-website-templates-free-psd
