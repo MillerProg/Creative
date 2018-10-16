@@ -14,7 +14,7 @@ html {
 header {
 	width: 100%;
 }
-section, footer {
+section, footer, hgroup, .top-line {
 	width: 1200px;
 	margin: 0 auto;
 }
@@ -24,9 +24,20 @@ hr {
 	color: #eeeeee;
 	background-color: #eeeeee;
 }
+nav {
+	float: left;
+}
+ul {	
+	list-style: none;
+}
+li {
+	display: inline-block;
+	padding-left: 35px;
+}
+
 .width-wrapper {
 	width: 100%;
-	padding: 200px 0px 200px 0px;
+	padding: 100px 0px 100px 0px;
 }
 .color-grey {
 	background-color: #333333;
