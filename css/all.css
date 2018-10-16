@@ -34,6 +34,11 @@ li {
 	display: inline-block;
 	padding-left: 35px;
 }
+h1{
+	text-transform: uppercase;
+	font-size: 5em;
+	font-weight: bold;
+}
 
 .width-wrapper {
 	width: 100%;
