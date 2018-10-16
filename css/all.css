@@ -11,3 +11,23 @@ html {
 	font-size: 100%;
 	font-weight: normal;
 }
+section, header, footer {
+	width: 1200px;
+	margin: 0 auto;
+}
+.width-wrapper {
+	width: 100%;
+	padding: 200px 0px 200px 0px;
+}
+.color-grey {
+	background-color: #333333;
+}
+.color-blue {
+	background-color: #10749e;
+}
+.color-lgrey {
+	background-color: #eeeeee;
+}
+.color-blue, .color-grey {
+	color: #ffffff;
+}
