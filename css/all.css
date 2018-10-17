@@ -51,10 +51,17 @@ li a {
 li a:hover {
 	border-bottom: 4px solid #10749e;
 }
-h1{
-	text-transform: uppercase;
+h1, h3{
+	text-transform: uppercase;		
+}
+h1 {
 	font-size: 5em;
 	font-weight: bold;
+}
+h3 {
+	color: #10749e;
+	font-size: 1.2em;
+	letter-spacing: 0.5em;
 }
 .top-line {
 	padding: 20px 0 30px 0;
@@ -66,6 +73,10 @@ h1{
 .social img{
 	height: 18px;
 	padding-left: 20px;
+}
+hgroup {
+	text-align: center;
+	padding: 200px 0 20px 0;
 }
 .width-wrapper {
 	width: 100%;
@@ -82,4 +93,77 @@ h1{
 }
 .color-white, .color-lgrey {
 	color: #000000;
+}
+
+
+.scroll-button {
+	margin-top: 100px;
+	position: relative;
+	height: 140px;
+	font-size: 0.8em;
+}
+button.scroll-down {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: 30px;
+  bottom: 60px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+}
+button.scroll-down:before {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-animation: scroll-down_btn-animation 2s infinite;
+  animation: scroll-down_btn-animation 2s infinite;
+  box-sizing: border-box;
+}
+
+@keyframes scroll-down_btn-animation {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes scroll-down_btn-animation {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translate(0, 20px);
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
