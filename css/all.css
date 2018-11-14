@@ -7,14 +7,17 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 2px;
 }
 h1 { 
 	font-size: 8em;
 	font-weight: bold;
 }
 h2 {
-    font-size: 1.4em;
-    opacity: 0.99;}
+    font-size: 1.6em;
+    opacity: 0.99;
+}
 h3 {	
 	font-size: 1.2em;
 	letter-spacing: 0.5em;
@@ -73,7 +76,7 @@ header {
     display: inline-block; 	
 }
 .logo {
-	margin-bottom: 15px;
+	margin-left: 15px;
 	height: 55px;
     float: left;
 }
@@ -145,12 +148,12 @@ hgroup {
 .width-half-item {width: 50%;}
 .width-half-content {
     margin: 100px 20px 100px 0;
-    max-width: 460px;
+    max-width: 450px;
     float: right;
 }
 .width-half-content-right {
     margin: 100px 0 100px 20px;
-    max-width: 460px;
+    max-width: 450px;
     float: left;
 }
 .width-half-img {
@@ -161,4 +164,21 @@ hgroup {
 }
 .width-half-img:nth-child(2) {
     background: url("../images/half2.jpg") no-repeat;
+}
+/*Blog*/
+.blog h4{
+    color: #10749e;
+}
+.blog img{
+    width: 220px;
+    height: 220px;
+}
+.blog-p {
+    margin-top: 100px;
+    margin-bottom: -50px;
+    font-size: 1.4em;
+}
+.img-float-left {
+    margin: 10px 10px 0 0;
+    float: left;
 }
