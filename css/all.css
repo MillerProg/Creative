@@ -29,7 +29,9 @@ a {
     color: #ffffff;
 }
 p {
+    margin: 10px 0 10px 0;
 	font-size: 0.8em;
+    
 }
 section {
 	text-align: center;
@@ -135,4 +137,28 @@ hgroup {
     margin: 100px 10px 0 10px;
     float: left;
     width: 220px;
+}
+.width-half {
+    display: flex;
+    align-items: stretch;
+}
+.width-half-item {width: 50%;}
+.width-half-content {
+    margin: 100px 20px 100px 0;
+    max-width: 460px;
+    float: right;
+}
+.width-half-content-right {
+    margin: 100px 0 100px 20px;
+    max-width: 460px;
+    float: left;
+}
+.width-half-img {
+    background-size: cover;
+}
+.width-half-img:nth-child(1) {
+    background: url("../images/half1.jpg") no-repeat;
+}
+.width-half-img:nth-child(2) {
+    background: url("../images/half2.jpg") no-repeat;
 }
