@@ -1,7 +1,7 @@
 /*General*/
 body {
     font-family: Tahoma, Arial, sans-serif;
-    color: #ffffff;
+    color: #fff;
 }
 h1,h2,h3,h4,h5,h6 {
     margin: 0;
@@ -205,4 +205,40 @@ hgroup {
     position: absolute;
     width: 160px;
     background-color: #fff;
+}
+/*About*/
+.about-wrapper {
+    background: url("../images/dark.jpg") no-repeat;
+    background-size: 100%;
+}
+.about {
+    width: 990px;
+    color: #fff;
+}
+form {
+    margin-top: 100px;
+}
+input {
+    margin: 15px;
+    padding: 15px;
+    width: 268px;
+    height: 30px;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+textarea {
+    padding: 15px;
+    width: 930px;
+    height: 200px;
+    color: #666;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+.about-b {
+    margin-top: 100px;
+    width: 220px;
+    height: 60px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    color: #fff;
 }
