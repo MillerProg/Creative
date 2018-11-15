@@ -208,7 +208,7 @@ hgroup {
 }
 /*About*/
 .about-wrapper {
-    background: url("../images/dark.jpg") no-repeat;
+    background: url("../images/dark.jpg") no-repeat fixed;
     background-size: 100%;
 }
 .about {
@@ -241,4 +241,8 @@ textarea {
     font-size: 1.4em;
     text-transform: uppercase;
     color: #fff;
+}
+.map {
+    background: url("../images/map.jpg") no-repeat;
+    background-size: 100%;
 }
