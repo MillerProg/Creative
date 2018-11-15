@@ -156,14 +156,13 @@ hgroup {
     max-width: 450px;
     float: left;
 }
-.width-half-img {
-    background-size: cover;
-}
 .width-half-img:nth-child(1) {
     background: url("../images/half1.jpg") no-repeat;
+    background-size: cover;
 }
 .width-half-img:nth-child(2) {
     background: url("../images/half2.jpg") no-repeat;
+    background-size: cover;
 }
 /*Blog*/
 .blog h4{
@@ -181,4 +180,15 @@ hgroup {
 .img-float-left {
     margin: 10px 10px 0 0;
     float: left;
+}
+/*Phone*/
+.back-phone {
+    background: url("../images/back_phone.jpg") no-repeat fixed;
+    background-size: 100%;
+}
+.phone-h {margin-top: 200px;}
+.phone-b {
+    margin-top: 10px;
+    padding: 10px 200px 10px 10px;
+    color: #fff;
 }
