@@ -192,3 +192,17 @@ hgroup {
     padding: 10px 200px 10px 10px;
     color: #fff;
 }
+/*Team*/
+.team img {
+    width: 220px;
+}
+.team h3 {
+    letter-spacing: 1px;
+}
+.team-name {
+    margin: -40px 20px;
+    padding: 10px;
+    position: absolute;
+    width: 160px;
+    background-color: #fff;
+}
