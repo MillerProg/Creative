@@ -39,9 +39,9 @@ p {
 section {
 	text-align: center;
 }
-section, footer, .back-w {
+section, .back-w {
     margin: 0 auto;
-	width: 980px;	
+	max-width: 980px;	
 }
 button {
     border: none;
@@ -209,30 +209,29 @@ hgroup {
 /*About*/
 .about-wrapper {
     background: url("../images/dark.jpg") no-repeat fixed;
-    background-size: 100%;
+    background-size: cover;
 }
 .about {
-    width: 990px;
+    max-width: 990px;
     color: #fff;
 }
 form {
     margin-top: 100px;
 }
-input {
+input, textarea {
     margin: 15px;
     padding: 15px;
-    width: 268px;
-    height: 30px;
     border: 1px solid #fff;
     background-color: transparent;
+    color: #666;
+}
+input {
+    width: 268px;
+    height: 30px;    
 }
 textarea {
-    padding: 15px;
-    width: 930px;
+    width: 100%;
     height: 200px;
-    color: #666;
-    border: 1px solid #fff;
-    background-color: transparent;
 }
 .about-b {
     margin-top: 100px;
@@ -242,10 +241,13 @@ textarea {
     text-transform: uppercase;
     color: #fff;
 }
+/*Map+Footer*/
 .map {
     background: url("../images/map.jpg") no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 footer {
-    
+    padding: 20px 0 20px 0;
+    width: 100%;
+    text-align: center;
 }
